@@ -1,0 +1,119 @@
+https://gist.github.com/Kraval/bf6921429cd218a6280be534189d2d20
+
+Customer API
+Create Asp .Net Web API that allows CRUD operation on a Customer entity. 
+The focus will be on the structure of the application and not so much on more number of 
+working Endpoints. 
+N-tire application is desired, so do not jam all the things into single VisualStudio Project
+
+Customer - done
+Id
+FirstName
+LastName
+Email
+MemberSince
+
+Basic Features
+CRUD REST endpoints on Customer Entity - done
+Connectivity with SQL Server - done
+Make use of EntitFramework [Code First preferred] - done
+Basic Model Validation
+
+Advance Features
+Enable JWT
+Integrate Asp .Net Identity
+Do not use BoilerPlate and build OWIN based pipeline
+Enable CORS - done
+Enable Swagger UI - done
+
+
+Submissions
+A link to github,bitbucket repository is preferred over a zip file. 
+But that will not count towards the points.
+
+http://www.mithunvp.com/aspnet-core-web-api-entity-framework-core/
+http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2017/
+https://docs.microsoft.com/en-us/ef/core/providers/
+
+https://garywoodfine.com/using-ef-core-in-a-separate-class-library-project/
+https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/projects
+https://github.com/aspnet/EntityFrameworkCore/issues/8923
+
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-2.1
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-2.1
+http://www.dotnetcurry.com/entityframework/1347/entity-framework-ef-core-tutorial
+
+
+https://www.c-sharpcorner.com/article/creating-web-api-using-code-first-approach-in-entity-framework/
+https://www.c-sharpcorner.com/UploadFile/fc9f65/Asp-Net-web-api-with-entity-framework-6-code-first-technique/
+https://www.c-sharpcorner.com/article/entity-framework-code-first-migration/
+https://www.codeproject.com/Articles/821439/Getting-started-with-ASP-Net-Web-API-using-CodeF
+https://code.msdn.microsoft.com/ASPNET-WebAPI-Entity-2f8797a1
+https://www.infragistics.com/community/blogs/b/dhananjay_kumar/posts/creating-an-asp-net-web-api-using-the-entity-framework-code-first-approach-and-the-repository-pattern
+http://www.mithunvp.com/aspnet-core-web-api-entity-framework-core/
+http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2017/
+https://docs.microsoft.com/en-us/ef/core/providers/
+
+
+https://www.c-sharpcorner.com/article/asp-net-web-api-crud-logics-using-entity-framework-without-writing-single-code/
+https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/
+https://www.codeproject.com/Articles/821439/Getting-started-with-ASP-Net-Web-API-using-CodeF
+http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/
+http://bitoftech.net/2013/11/25/implement-http-actions-post-put-delete-web-api/
+https://damienbod.com/2016/10/01/identityserver4-webapi-and-angular2-in-a-single-asp-net-core-project/
+https://www.pointblankdevelopment.com.au/blog/113/aspnet-core-20-angular-24-user-registration-and-login-tutorial-example
+https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi
+https://dzone.com/articles/access-control-allow-origin-header-and-the-aspnet
+https://www.c-sharpcorner.com/article/implementing-jwt-auth-in-web-api/
+https://blogs.msdn.microsoft.com/mvpawardprogram/2017/05/02/adding-webapi-oauth-auth/
+http://blog.asteropesystems.com/post/securing-web-api-requests-with-json-web-tokens
+http://bitoftech.net/2015/02/16/implement-oauth-json-web-tokens-authentication-in-asp-net-web-api-and-identity-2/
+https://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/
+https://stormpath.com/blog/token-authentication-asp-net-core
+
+https://www.learnentityframeworkcore.com/migrations/commands/pmc-commands
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/powershell
+https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/projects
+https://github.com/aspnet/EntityFrameworkCore/issues/10967
+https://github.com/threenine/swcApi/blob/master/src/Api.Database/DBGlobals.cs
+https://stackoverflow.com/questions/48069420/entity-framework-core-2-context-and-model-in-separate-project-to-main-project
+http://www.entityframeworktutorial.net/efcore/entity-framework-core-console-application.aspx
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbset-1?view=efcore-2.0
+https://coding.abel.nu/2012/03/ef-migrations-command-reference/
+
+
+https://dotnetcoretutorials.com/2017/01/05/accessing-httpcontext-asp-net-core/
+
+
+JWT & ASP .NET Identity
+Most IMP to use
+http://bitoftech.net/2015/02/16/implement-oauth-json-web-tokens-authentication-in-asp-net-web-api-and-identity-2/
+https://pioneercode.com/post/authentication-in-an-asp-dot-net-core-api-part-3-json-web-token
+
+Other
+https://stackoverflow.com/questions/40281050/jwt-authentication-for-asp-net-web-api
+https://tools.ietf.org/html/rfc7519
+http://blogs.quovantis.com/json-web-token-jwt-with-web-api/
+https://www.c-sharpcorner.com/article/implementing-jwt-auth-in-web-api/
+https://www.codeproject.com/Articles/369657/Simple-Authentication-using-Jwt-in-Asp-Net-Web-Api
+https://www.codeproject.com/Articles/876870/Implement-OAuth-JSON-Web-Tokens-Authentication-in
+https://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/
+http://bitoftech.net/2014/10/27/json-web-token-asp-net-web-api-2-jwt-owin-authorization-server/
+https://dzone.com/articles/build-a-secure-net-web-api-with-token-authentication
+
+Model Validation 
+Most IMP to use
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.1
+
+Others
+https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1
+https://www.codeproject.com/Articles/1218427/Getting-Started-with-Entity-Framework-Core-Buildin
+https://docs.microsoft.com/en-us/ef/core/get-started/aspnetcore/new-db
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.1
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/inheritance?view=aspnetcore-2.1
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/crud?view=aspnetcore-2.1
+https://www.pluralsight.com/guides/asp-net-mvc-creating-solutions-with-separate-projects-for-entities-data-access-and-website-functionality
+
+https://stackoverflow.com/questions/38667445/is-apicontroller-deprecated-in-net-core
+https://stackoverflow.com/questions/44085424/net-standard-vs-net-core?rq=1
